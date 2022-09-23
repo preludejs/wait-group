@@ -4,9 +4,9 @@
   "description": "WaitGroup module.",
   "type": "module",
   "main": "./cjs/index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "*"
+  ],
   "scripts": {
     "test": "make test",
     "preversion": "make test",
